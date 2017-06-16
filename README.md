@@ -25,7 +25,7 @@ Pour cela, un conteneur *Docker* est très facile à créer en choisissant pour 
    
 Puis il faut initialiser la base de données à l'aide de la fonction *main* du package *main*.
 
-Cela prend du temps, beaucoup de temps (plusieurs heures), donc patience...
+Cela prend du temps, beaucoup de temps (plusieurs heures sur un portable), donc patience...
 
 **Remarque**: Le choix d'utiliser une base de données dans un conteneur n'est probablement pas le meilleur pour les performances.
 La table des coefficients est très grosse (401792 lignes) et donc partitionnée (par numéro de planète) pour être utilisable.
