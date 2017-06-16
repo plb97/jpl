@@ -1,0 +1,30 @@
+<component name="libraryTable">
+  <library name="GOPATH &lt;jpl&gt;">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../../../GoAntlr/src/parser" />
+      <root url="file://$PROJECT_DIR$/../../../../GoTP/src/alex" />
+      <root url="file://$PROJECT_DIR$/../../../../GoTP/src/ch03" />
+      <root url="file://$PROJECT_DIR$/../../../../GoTP/src/ch02" />
+      <root url="file://$PROJECT_DIR$/../../../../Goal/src/goal" />
+      <root url="file://$PROJECT_DIR$/../../../../GoTP/src/asyn" />
+      <root url="file://$PROJECT_DIR$/../.." />
+      <root url="file://$PROJECT_DIR$/../../../../GoTP/src/expreg" />
+      <root url="file://$PROJECT_DIR$/../../../../GoTP/src/lang" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../../../../GoAntlr/src/parser" />
+      <root url="file://$PROJECT_DIR$/../../../../GoTP/src/alex" />
+      <root url="file://$PROJECT_DIR$/../../../../GoTP/src/ch03" />
+      <root url="file://$PROJECT_DIR$/../../../../GoTP/src/ch02" />
+      <root url="file://$PROJECT_DIR$/../../../../Goal/src/goal" />
+      <root url="file://$PROJECT_DIR$/../../../../GoTP/src/asyn" />
+      <root url="file://$PROJECT_DIR$/../.." />
+      <root url="file://$PROJECT_DIR$/../../../../GoTP/src/expreg" />
+      <root url="file://$PROJECT_DIR$/../../../../GoTP/src/lang" />
+    </SOURCES>
+    <excluded>
+      <root url="file://$PROJECT_DIR$" />
+    </excluded>
+  </library>
+</component>
