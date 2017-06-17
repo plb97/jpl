@@ -2,14 +2,18 @@
 Exemple (expérimental) d'utilisation du langage Go en astronomie à partir des éphémérides DE432 du JPL.
 
 Source d'informations ftp://ssd.jpl.nasa.gov/pub/eph/planets
+Source de données ftp://ssd.jpl.nasa.gov/pub/eph/planets/ascii/de432
 
 ## Lectures intéressantes
 
 NASA et Caltech Jet Propulsion Laboratory (JPL) 
 
-*   ftp://ssd.jpl.nasa.gov/pub/eph/planets/README.txt
+*   http://ipnpr.jpl.nasa.gov/progress_report/42-196/196C.pdf
 *   https://ssd.jpl.nasa.gov/?planet_eph_export
+*   https://naif.jpl.nasa.gov/pub/naif/toolkit_docs/C/req/spk.html
+*   ftp://ssd.jpl.nasa.gov/pub/eph/planets/README.txt
 *   ftp://ssd.jpl.nasa.gov/pub/eph/planets/fortran
+...
 
 Description des groupes (1010, 1030, 1040, 1041, 1050 et 1070)
 

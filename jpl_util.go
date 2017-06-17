@@ -12,7 +12,7 @@ import (
 	"database/sql"
 	_ "github.com/go-sql-driver/mysql"
 )
-// type pour la lecture successive des plusieurs fichiers comme s'il s'agissait d'un seul
+// type pour la lecture successive de plusieurs fichiers comme s'il s'agissait d'un seul
 type multiFile struct {
 	files []*os.File
 }

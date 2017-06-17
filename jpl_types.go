@@ -9,19 +9,19 @@ import (
 	"sort"
 )
 
-var TchebT = []Poly{{1},{0,1},}
-var TchebTd = []Poly{{},{1},}
-var TchebU = []Poly{{1},{0,2},}
+var TchebT = []Poly{{1},{0,1},} // T[0] = 1, T[1] = X
+var TchebTd = []Poly{{},{1},}   // T[0]' = rien (0), T[1]' = 1
+var TchebU = []Poly{{1},{0,2},} // U[0] = 1, U[1] = 2*X
 
 func init() {
 	nmax := Configuration.TchebNmax
-	p2 := Poly{0,2}
+	p2 := Poly{0,2} // 2*X
 	for n := 2; n <= nmax; n++ {
-		p := p2.MultPoly(TchebT[n-1]).SubPoly(TchebT[n-2])
+		p := p2.MultPoly(TchebT[n-1]).SubPoly(TchebT[n-2]) // T[n] = 2*X*T[n-1] - T[n-2] pour n >= 2
 		TchebT = append(TchebT,p)
 		p = p.Diff()
 		TchebTd = append(TchebTd,p)
-		p = p2.MultPoly(TchebU[n-1]).SubPoly(TchebU[n-2])
+		p = p2.MultPoly(TchebU[n-1]).SubPoly(TchebU[n-2]) // U[n] = 2*X*U[n-1] - U[n-2] pour n >= 2
 		TchebU = append(TchebU,p)
 	}
 }
