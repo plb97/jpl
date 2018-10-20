@@ -13,8 +13,8 @@ NASA et Caltech Jet Propulsion Laboratory (JPL)
 * [<http://ipnpr.jpl.nasa.gov/progress_report/42-196/196C.pdf>](http://ipnpr.jpl.nasa.gov/progress_report/42-196/196C.pdf)
 * [<https://ssd.jpl.nasa.gov/?planet_eph_export>](https://ssd.jpl.nasa.gov/?planet_eph_export)
 * [<https://naif.jpl.nasa.gov/pub/naif/toolkit_docs/C/req/spk.html>](https://naif.jpl.nasa.gov/pub/naif/toolkit_docs/C/req/spk.html)
-* [NASA README](ftp://ssd.jpl.nasa.gov/pub/eph/planets/README.txt)
-* [NASA FORTRAN](ftp://ssd.jpl.nasa.gov/pub/eph/planets/fortran)
+* [<ftp://ssd.jpl.nasa.gov/pub/eph/planets/README.txt>](ftp://ssd.jpl.nasa.gov/pub/eph/planets/README.txt)
+* [<ftp://ssd.jpl.nasa.gov/pub/eph/planets/fortran>](ftp://ssd.jpl.nasa.gov/pub/eph/planets/fortran)
 
 Description des groupes (1010, 1030, 1040, 1041, 1050 et 1070)
 
