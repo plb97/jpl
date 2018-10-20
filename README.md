@@ -9,7 +9,7 @@ Exemple (expérimental) d'utilisation du langage Go en astronomie à partir des 
 
 NASA et Caltech Jet Propulsion Laboratory (JPL)
 
-* [ARXIV](https://arxiv.org/pdf/1507.04291)
+* [<https://arxiv.org/pdf/1507.04291>](https://arxiv.org/pdf/1507.04291)
 * [NASA](http://ipnpr.jpl.nasa.gov/progress_report/42-196/196C.pdf)
 * [...](https://ssd.jpl.nasa.gov/?planet_eph_export)
 * [...](https://naif.jpl.nasa.gov/pub/naif/toolkit_docs/C/req/spk.html)
